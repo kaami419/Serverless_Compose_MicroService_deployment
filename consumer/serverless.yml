@@ -1,0 +1,14 @@
+org: hamzak99
+app: my-serverless-compose
+service: aws-node-http-api-project
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: test
+  region: us-east-1
+
+functions:
+  consumer:
+    handler: handler.consumer

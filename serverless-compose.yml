@@ -1,0 +1,9 @@
+services:
+  resources:
+    path: resources
+
+  producer:
+    path: producer
+
+  consumer:
+    path: consumer
